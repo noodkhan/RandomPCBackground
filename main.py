@@ -15,7 +15,7 @@ def getImage():
     response  = requests.get(url)                  # HTTP get Resquest
     if response.status_code == 200 :
         data = response.json()                     # Image Data as json
-        randomPhoto = data['urls']['regular']      # get URL
+        randomPhoto = data['urls']['raw']          # get URL
         print("Random Photo : \n" , randomPhoto)
         return randomPhoto
     else : 
