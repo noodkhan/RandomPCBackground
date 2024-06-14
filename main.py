@@ -43,7 +43,7 @@ def changeBackground(filepath):
 
 filepath = "file_Directory"                     # filepath = "D:\\python\\ChangeBackground\\BackgroundImage.jpg"
 seconds = 72                                    # 72 * 50 = 3600 seconds = 1 hour
-loopSystem(seconds);
+loopSystem(seconds , filepath);
 
 
 
