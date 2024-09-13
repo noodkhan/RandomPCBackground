@@ -119,7 +119,7 @@ def notificationProgram():
 def ChangePCBackgroundProgram(filepath): 
     imageURL = getImage()                       # call API getImage
     downloadImage(imageURL , filepath)          # download Image from url to System
-    changeBackground(filepath);                 # change Background
+    changeBackground(filepath)                  # change Background
 
 
 # Program life cycle
@@ -137,7 +137,7 @@ def systemLoop(seconds , filepath):
 def main():
     filepath = "YOUR_FILEDIRECTORY"                     # D:\\python\\program\\BackgroundImage.jpg
     seconds = 72                                        # 72 * 50 = 3600 seconds = 1 hour
-    systemLoop(seconds , filepath);                     # System Life Cycle
+    systemLoop(seconds , filepath)                      # System Life Cycle
 
 
 main()                                                  # Run the Program
