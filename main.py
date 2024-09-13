@@ -1,3 +1,4 @@
+# Developed by Navin Khanthawong 
 import os
 import ctypes
 import time
@@ -7,7 +8,6 @@ from plyer import notification
 from datetime import datetime as date
 from gtts import gTTS
 from playsound import playsound
-# Developed by Navin Khanthawong 
 
 # schedules object
 class timeSchedule(object):
@@ -61,7 +61,7 @@ def sendRequest(schedules , now):
 # get Image API
 def getImage():
     try :
-        accessKey = "Z0pXiBgAu4tU598QMdMsUogK_7ZrRs67GFKyRPSQ6R8"
+        accessKey = "Your_API_KEY"
         url = f'https://api.unsplash.com/photos/random/?client_id={accessKey}&orientation=landscape&h=4000&w=2160&fit=max'
         response  = requests.get(url)                  # HTTP get Resquest
         if response.status_code == 200 :
@@ -135,7 +135,7 @@ def systemLoop(seconds , filepath):
 
 # Main Program 
 def main():
-    filepath = "D:\\python\\program\\BackgroundImage.jpg"
+    filepath = "YOUR_FILEDIRECTORY"                     # D:\\python\\program\\BackgroundImage.jpg
     seconds = 72                                        # 72 * 50 = 3600 seconds = 1 hour
     systemLoop(seconds , filepath);                     # System Life Cycle
 
