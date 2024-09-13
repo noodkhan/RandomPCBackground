@@ -135,7 +135,7 @@ def systemLoop(seconds , filepath):
 
 # Main Program 
 def main():
-    filepath = "YOUR_FILEDIRECTORY"                     # D:\\python\\program\\BackgroundImage.jpg
+    filepath = "YOUR_FILE_DIRECTORY"                     # D:\\python\\program\\BackgroundImage.jpg
     seconds = 72                                        # 72 * 50 = 3600 seconds = 1 hour
     systemLoop(seconds , filepath)                      # System Life Cycle
 
