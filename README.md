@@ -1,5 +1,5 @@
-<h2>Random BackGround For PC</h2>
-<p>Developed by Navin Khanthawong</p>
+<h2>Random Background For PC</h2>
+<p>Developer Navin Khanthawong</p>
 <p>Technology Python</p>
 <a href="https://unsplash.com/documentation">API Document LINK HERE</a>
 <div></div>
