@@ -1,6 +1,5 @@
 <h2>Random Background For PC</h2>
 <p>Developer Navin Khanthawong</p>
-<p>Technology Python</p>
 <a href="https://unsplash.com/documentation">API Document LINK HERE</a>
 <div></div>
 <img width="957" alt="Screenshot 2024-09-21 073846" src="https://github.com/user-attachments/assets/af1f60a7-1d9c-40ab-ade0-09acb160ec6b">
